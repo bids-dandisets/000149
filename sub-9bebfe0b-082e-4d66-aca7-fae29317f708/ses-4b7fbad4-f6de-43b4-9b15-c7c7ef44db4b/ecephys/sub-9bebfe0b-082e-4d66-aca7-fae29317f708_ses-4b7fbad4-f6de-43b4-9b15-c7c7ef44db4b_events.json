@@ -1,0 +1,75 @@
+{
+    "onset": {
+        "Description": "Onset of the event, measured from the beginning of the acquisition.",
+        "Units": "s"
+    },
+    "duration": {
+        "Description": "Duration of the event (measured from onset).",
+        "Units": "s"
+    },
+    "choice.npy": {
+        "Description": "which choice was made in choiceworld: -1 (turn CCW), +1 (turn CW), or 0 (nogo)"
+    },
+    "contrastLeft.npy": {
+        "Description": "contrast of left-side stimulus (0...1) nan if trial is on other side"
+    },
+    "contrastRight.npy": {
+        "Description": "contrast of right-side stimulus (0...1) nan if trial is on other side"
+    },
+    "feedbackType.npy": {
+        "Description": "Whether feedback is positive or negative in choiceworld (-1 for negative, +1 for positive)"
+    },
+    "feedback_times.npy": {
+        "Description": "Times of stimulus onset trigger command"
+    },
+    "firstMovement_times.npy": {
+        "Description": "Times of stimulus onset trigger command"
+    },
+    "goCueTrigger_times.npy": {
+        "Description": "Times of stimulus onset trigger command"
+    },
+    "goCue_times.npy": {
+        "Description": "Times of stimulus onset trigger command"
+    },
+    "intervals_bpod.npy": {
+        "Description": "2 column array giving each trials start (i.e. beginning of quiescent period) and stop (i.e. end of iti) times of trials in universal seconds"
+    },
+    "itiDuration.npy": {
+        "Description": "Intertrial interval duration for each trial"
+    },
+    "probabilityLeft.npy": {
+        "Description": "Probability of stimulation to be turned on within the trial"
+    },
+    "response_times.npy": {
+        "Description": "Times of stimulus onset trigger command"
+    },
+    "rewardVolume.npy": {
+        "Description": "volume of reward given each trial in \u00b5l"
+    },
+    "stimOff_times.npy": {
+        "Description": "Times of stimulus onset trigger command"
+    },
+    "stimOn_times.npy": {
+        "Description": "Times of stimulus onset trigger command"
+    },
+    "peakAmplitude.npy": {
+        "Description": "amplitude of the wheel move"
+    },
+    "nwb_table": {
+        "Description": "The name of the NWB table from which this event was extracted.",
+        "Levels": {
+            "trials": "The 'trials' table in the NWB file.",
+            "BehavioralEpochs": "The 'BehavioralEpochs' table in the NWB file."
+        },
+        "HED": {
+            "trials": "Experimental-trial",
+            "BehavioralEpochs": "Time-interval"
+        }
+    },
+    "trials": {
+        "Description": "experimental trials"
+    },
+    "BehavioralEpochs": {
+        "Description": "experimental intervals"
+    }
+}

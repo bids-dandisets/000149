@@ -1,0 +1,185 @@
+[
+  {
+    "identifier": "MissingSpecies",
+    "title": "Missing participant species",
+    "reason": "Archives such as DANDI or EMBER require the subject species to be specified.",
+    "solution": "Specify the `species` field of the Subject object attached to the NWB file as a Latin binomial, obolibrary taxonomy link, or NCBI taxonomy reference.",
+    "examples": null,
+    "field": "nwbfile.subject.species",
+    "data_standards": [
+      "DANDI"
+    ],
+    "source_file_paths": null,
+    "target_file_paths": null,
+    "category": "SCHEMA_INVALIDATION",
+    "severity": "CRITICAL"
+  },
+  {
+    "identifier": "InvalidParticipantID",
+    "title": "Invalid participant ID",
+    "reason": "The participant ID contains invalid characters. BIDS allows only the plus sign to be used as a separator in the subject entity label. Underscores, dashes, spaces, slashes, and other special characters (including #) are expressly forbidden.",
+    "solution": "Rename the subject without using any special characters except for `+`.",
+    "examples": [
+      "`ab_01` -> `ab+01`",
+      "`subject #2` -> `subject+2`",
+      "`id 2 from 9/1/25` -> `id+2+9+1+25`"
+    ],
+    "field": "nwbfile.subject.subject_id",
+    "data_standards": [
+      "BIDS",
+      "DANDI"
+    ],
+    "source_file_paths": null,
+    "target_file_paths": null,
+    "category": "STYLE_SUGGESTION",
+    "severity": "ERROR"
+  },
+  {
+    "identifier": "InvalidParticipantID",
+    "title": "Invalid participant ID",
+    "reason": "The participant ID contains invalid characters. BIDS allows only the plus sign to be used as a separator in the subject entity label. Underscores, dashes, spaces, slashes, and other special characters (including #) are expressly forbidden.",
+    "solution": "Rename the subject without using any special characters except for `+`.",
+    "examples": [
+      "`ab_01` -> `ab+01`",
+      "`subject #2` -> `subject+2`",
+      "`id 2 from 9/1/25` -> `id+2+9+1+25`"
+    ],
+    "field": "nwbfile.subject.subject_id",
+    "data_standards": [
+      "BIDS",
+      "DANDI"
+    ],
+    "source_file_paths": null,
+    "target_file_paths": null,
+    "category": "STYLE_SUGGESTION",
+    "severity": "ERROR"
+  },
+  {
+    "identifier": "InvalidParticipantID",
+    "title": "Invalid participant ID",
+    "reason": "The participant ID contains invalid characters. BIDS allows only the plus sign to be used as a separator in the subject entity label. Underscores, dashes, spaces, slashes, and other special characters (including #) are expressly forbidden.",
+    "solution": "Rename the subject without using any special characters except for `+`.",
+    "examples": [
+      "`ab_01` -> `ab+01`",
+      "`subject #2` -> `subject+2`",
+      "`id 2 from 9/1/25` -> `id+2+9+1+25`"
+    ],
+    "field": "nwbfile.subject.subject_id",
+    "data_standards": [
+      "BIDS",
+      "DANDI"
+    ],
+    "source_file_paths": null,
+    "target_file_paths": null,
+    "category": "STYLE_SUGGESTION",
+    "severity": "ERROR"
+  },
+  {
+    "identifier": "InvalidParticipantID",
+    "title": "Invalid participant ID",
+    "reason": "The participant ID contains invalid characters. BIDS allows only the plus sign to be used as a separator in the subject entity label. Underscores, dashes, spaces, slashes, and other special characters (including #) are expressly forbidden.",
+    "solution": "Rename the subject without using any special characters except for `+`.",
+    "examples": [
+      "`ab_01` -> `ab+01`",
+      "`subject #2` -> `subject+2`",
+      "`id 2 from 9/1/25` -> `id+2+9+1+25`"
+    ],
+    "field": "nwbfile.subject.subject_id",
+    "data_standards": [
+      "BIDS",
+      "DANDI"
+    ],
+    "source_file_paths": null,
+    "target_file_paths": null,
+    "category": "STYLE_SUGGESTION",
+    "severity": "ERROR"
+  },
+  {
+    "identifier": "InvalidSessionID",
+    "title": "Invalid session ID",
+    "reason": "The session ID contains invalid characters. BIDS allows only the plus sign to be used as a separator in the subject entity label. Underscores, dashes, spaces, slashes, and other special characters (including #) are expressly forbidden.",
+    "solution": "Rename the session without using any special characters except for `+`.",
+    "examples": [
+      "`ses_01` -> `ses+01`",
+      "`session #2` -> `session+2`",
+      "`id 2 from 9/1/25` -> `id+2+9+1+25`"
+    ],
+    "field": "nwbfile.session_id",
+    "data_standards": [
+      "BIDS",
+      "DANDI"
+    ],
+    "source_file_paths": [
+      "https://dandiarchive.s3.amazonaws.com/blobs/03d/68a/03d68a03-8499-47cf-a357-4d44a9dbb917"
+    ],
+    "target_file_paths": null,
+    "category": "STYLE_SUGGESTION",
+    "severity": "ERROR"
+  },
+  {
+    "identifier": "InvalidSessionID",
+    "title": "Invalid session ID",
+    "reason": "The session ID contains invalid characters. BIDS allows only the plus sign to be used as a separator in the subject entity label. Underscores, dashes, spaces, slashes, and other special characters (including #) are expressly forbidden.",
+    "solution": "Rename the session without using any special characters except for `+`.",
+    "examples": [
+      "`ses_01` -> `ses+01`",
+      "`session #2` -> `session+2`",
+      "`id 2 from 9/1/25` -> `id+2+9+1+25`"
+    ],
+    "field": "nwbfile.session_id",
+    "data_standards": [
+      "BIDS",
+      "DANDI"
+    ],
+    "source_file_paths": [
+      "https://dandiarchive.s3.amazonaws.com/blobs/24c/6ee/24c6ee05-7e8e-490f-9c63-cb22da2f6754"
+    ],
+    "target_file_paths": null,
+    "category": "STYLE_SUGGESTION",
+    "severity": "ERROR"
+  },
+  {
+    "identifier": "InvalidSessionID",
+    "title": "Invalid session ID",
+    "reason": "The session ID contains invalid characters. BIDS allows only the plus sign to be used as a separator in the subject entity label. Underscores, dashes, spaces, slashes, and other special characters (including #) are expressly forbidden.",
+    "solution": "Rename the session without using any special characters except for `+`.",
+    "examples": [
+      "`ses_01` -> `ses+01`",
+      "`session #2` -> `session+2`",
+      "`id 2 from 9/1/25` -> `id+2+9+1+25`"
+    ],
+    "field": "nwbfile.session_id",
+    "data_standards": [
+      "BIDS",
+      "DANDI"
+    ],
+    "source_file_paths": [
+      "https://dandiarchive.s3.amazonaws.com/blobs/9d9/e1b/9d9e1b6d-726b-453e-ad29-9f511107a2e0"
+    ],
+    "target_file_paths": null,
+    "category": "STYLE_SUGGESTION",
+    "severity": "ERROR"
+  },
+  {
+    "identifier": "InvalidSessionID",
+    "title": "Invalid session ID",
+    "reason": "The session ID contains invalid characters. BIDS allows only the plus sign to be used as a separator in the subject entity label. Underscores, dashes, spaces, slashes, and other special characters (including #) are expressly forbidden.",
+    "solution": "Rename the session without using any special characters except for `+`.",
+    "examples": [
+      "`ses_01` -> `ses+01`",
+      "`session #2` -> `session+2`",
+      "`id 2 from 9/1/25` -> `id+2+9+1+25`"
+    ],
+    "field": "nwbfile.session_id",
+    "data_standards": [
+      "BIDS",
+      "DANDI"
+    ],
+    "source_file_paths": [
+      "https://dandiarchive.s3.amazonaws.com/blobs/ec4/8e8/ec48e8d5-e7d9-448e-ad1e-d6ca2f65a31f"
+    ],
+    "target_file_paths": null,
+    "category": "STYLE_SUGGESTION",
+    "severity": "ERROR"
+  }
+]
