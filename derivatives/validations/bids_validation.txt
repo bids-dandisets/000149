@@ -1,0 +1,122 @@
+	[WARNING] JSON_KEY_RECOMMENDED A JSON file is missing a key listed as recommended.
+		SourceDatasets
+		/dataset_description.json - Field description: Used to specify the locations and relevant attributes of all source datasets (BIDS or not).
+Valid keys in each object include `"URL"`, `"DOI"` (see
+[URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)), and
+`"Version"` with
+[string](https://www.w3schools.com/js/js_json_datatypes.asp)
+values.
+
+
+	Please visit https://neurostars.org/search?q=JSON_KEY_RECOMMENDED for existing conversations about this issue.
+
+	[WARNING] SIDECAR_KEY_RECOMMENDED A data file's JSON sidecar is missing a key listed as recommended.
+		Manufacturer
+		/sub-c6e8125f-b6c7-4349-b74d-32e8bd606f63/ses-aad23144-0e52-4eac-80c5-c4ee2decb198/ecephys/sub-c6e8125f-b6c7-4349-b74d-32e8bd606f63_ses-aad23144-0e52-4eac-80c5-c4ee2decb198_ecephys.nwb - Field description: Manufacturer of the equipment that produced the measurements.
+
+		/sub-92130c1b-4fdb-4acc-86e0-1853d429c41a/ses-c7bd79c9-c47e-4ea5-aea3-74dda991b48e/ecephys/sub-92130c1b-4fdb-4acc-86e0-1853d429c41a_ses-c7bd79c9-c47e-4ea5-aea3-74dda991b48e_ecephys.nwb - Field description: Manufacturer of the equipment that produced the measurements.
+
+
+		2 more files with the same issue
+
+		RecordingDuration
+		/sub-c6e8125f-b6c7-4349-b74d-32e8bd606f63/ses-aad23144-0e52-4eac-80c5-c4ee2decb198/ecephys/sub-c6e8125f-b6c7-4349-b74d-32e8bd606f63_ses-aad23144-0e52-4eac-80c5-c4ee2decb198_ecephys.nwb - Field description: Length of the recording in seconds (for example, `3600`).
+
+		/sub-92130c1b-4fdb-4acc-86e0-1853d429c41a/ses-c7bd79c9-c47e-4ea5-aea3-74dda991b48e/ecephys/sub-92130c1b-4fdb-4acc-86e0-1853d429c41a_ses-c7bd79c9-c47e-4ea5-aea3-74dda991b48e_ecephys.nwb - Field description: Length of the recording in seconds (for example, `3600`).
+
+
+		2 more files with the same issue
+
+		RecordingType
+		/sub-c6e8125f-b6c7-4349-b74d-32e8bd606f63/ses-aad23144-0e52-4eac-80c5-c4ee2decb198/ecephys/sub-c6e8125f-b6c7-4349-b74d-32e8bd606f63_ses-aad23144-0e52-4eac-80c5-c4ee2decb198_ecephys.nwb - Field description: Defines whether the recording is `"continuous"`, `"discontinuous"`, or
+`"epoched"`, where `"epoched"` is limited to time windows about events of
+interest (for example, stimulus presentations or subject responses).
+
+		/sub-92130c1b-4fdb-4acc-86e0-1853d429c41a/ses-c7bd79c9-c47e-4ea5-aea3-74dda991b48e/ecephys/sub-92130c1b-4fdb-4acc-86e0-1853d429c41a_ses-c7bd79c9-c47e-4ea5-aea3-74dda991b48e_ecephys.nwb - Field description: Defines whether the recording is `"continuous"`, `"discontinuous"`, or
+`"epoched"`, where `"epoched"` is limited to time windows about events of
+interest (for example, stimulus presentations or subject responses).
+
+
+		2 more files with the same issue
+
+		BodyPart
+		/sub-c6e8125f-b6c7-4349-b74d-32e8bd606f63/ses-aad23144-0e52-4eac-80c5-c4ee2decb198/ecephys/sub-c6e8125f-b6c7-4349-b74d-32e8bd606f63_ses-aad23144-0e52-4eac-80c5-c4ee2decb198_ecephys.nwb - Field description: Body part of the organ / body region scanned.
+
+		/sub-92130c1b-4fdb-4acc-86e0-1853d429c41a/ses-c7bd79c9-c47e-4ea5-aea3-74dda991b48e/ecephys/sub-92130c1b-4fdb-4acc-86e0-1853d429c41a_ses-c7bd79c9-c47e-4ea5-aea3-74dda991b48e_ecephys.nwb - Field description: Body part of the organ / body region scanned.
+
+
+		2 more files with the same issue
+
+		BodyPartDetails
+		/sub-c6e8125f-b6c7-4349-b74d-32e8bd606f63/ses-aad23144-0e52-4eac-80c5-c4ee2decb198/ecephys/sub-c6e8125f-b6c7-4349-b74d-32e8bd606f63_ses-aad23144-0e52-4eac-80c5-c4ee2decb198_ecephys.nwb - Field description: Additional details about body part or location (for example: `"corpus callosum"`).
+
+		/sub-92130c1b-4fdb-4acc-86e0-1853d429c41a/ses-c7bd79c9-c47e-4ea5-aea3-74dda991b48e/ecephys/sub-92130c1b-4fdb-4acc-86e0-1853d429c41a_ses-c7bd79c9-c47e-4ea5-aea3-74dda991b48e_ecephys.nwb - Field description: Additional details about body part or location (for example: `"corpus callosum"`).
+
+
+		2 more files with the same issue
+
+		StimulusPresentation
+		/sub-c6e8125f-b6c7-4349-b74d-32e8bd606f63/ses-aad23144-0e52-4eac-80c5-c4ee2decb198/ecephys/sub-c6e8125f-b6c7-4349-b74d-32e8bd606f63_ses-aad23144-0e52-4eac-80c5-c4ee2decb198_events.tsv - Field description: Object containing key-value pairs related to the software used to present
+the stimuli during the experiment.
+
+		/sub-92130c1b-4fdb-4acc-86e0-1853d429c41a/ses-c7bd79c9-c47e-4ea5-aea3-74dda991b48e/ecephys/sub-92130c1b-4fdb-4acc-86e0-1853d429c41a_ses-c7bd79c9-c47e-4ea5-aea3-74dda991b48e_events.tsv - Field description: Object containing key-value pairs related to the software used to present
+the stimuli during the experiment.
+
+
+		2 more files with the same issue
+
+	Please visit https://neurostars.org/search?q=SIDECAR_KEY_RECOMMENDED for existing conversations about this issue.
+
+	[WARNING] TSV_COLUMN_TYPE_REDEFINED A column required in a TSV file has been redefined in a sidecar file. This redefinition is being ignored.
+		sampling_frequency
+		/sub-c6e8125f-b6c7-4349-b74d-32e8bd606f63/ses-aad23144-0e52-4eac-80c5-c4ee2decb198/ecephys/sub-c6e8125f-b6c7-4349-b74d-32e8bd606f63_ses-aad23144-0e52-4eac-80c5-c4ee2decb198_channels.json - Format "string" must be number
+		/sub-92130c1b-4fdb-4acc-86e0-1853d429c41a/ses-c7bd79c9-c47e-4ea5-aea3-74dda991b48e/ecephys/sub-92130c1b-4fdb-4acc-86e0-1853d429c41a_ses-c7bd79c9-c47e-4ea5-aea3-74dda991b48e_channels.json - Format "string" must be number
+
+		2 more files with the same issue
+
+		x
+		/sub-c6e8125f-b6c7-4349-b74d-32e8bd606f63/ses-aad23144-0e52-4eac-80c5-c4ee2decb198/ecephys/sub-c6e8125f-b6c7-4349-b74d-32e8bd606f63_ses-aad23144-0e52-4eac-80c5-c4ee2decb198_electrodes.json - Format "string" must be number
+		/sub-92130c1b-4fdb-4acc-86e0-1853d429c41a/ses-c7bd79c9-c47e-4ea5-aea3-74dda991b48e/ecephys/sub-92130c1b-4fdb-4acc-86e0-1853d429c41a_ses-c7bd79c9-c47e-4ea5-aea3-74dda991b48e_electrodes.json - Format "string" must be number
+
+		2 more files with the same issue
+
+		y
+		/sub-c6e8125f-b6c7-4349-b74d-32e8bd606f63/ses-aad23144-0e52-4eac-80c5-c4ee2decb198/ecephys/sub-c6e8125f-b6c7-4349-b74d-32e8bd606f63_ses-aad23144-0e52-4eac-80c5-c4ee2decb198_electrodes.json - Format "string" must be number
+		/sub-92130c1b-4fdb-4acc-86e0-1853d429c41a/ses-c7bd79c9-c47e-4ea5-aea3-74dda991b48e/ecephys/sub-92130c1b-4fdb-4acc-86e0-1853d429c41a_ses-c7bd79c9-c47e-4ea5-aea3-74dda991b48e_electrodes.json - Format "string" must be number
+
+		2 more files with the same issue
+
+		impedance
+		/sub-c6e8125f-b6c7-4349-b74d-32e8bd606f63/ses-aad23144-0e52-4eac-80c5-c4ee2decb198/ecephys/sub-c6e8125f-b6c7-4349-b74d-32e8bd606f63_ses-aad23144-0e52-4eac-80c5-c4ee2decb198_electrodes.json - Format "string" must be number
+		/sub-92130c1b-4fdb-4acc-86e0-1853d429c41a/ses-c7bd79c9-c47e-4ea5-aea3-74dda991b48e/ecephys/sub-92130c1b-4fdb-4acc-86e0-1853d429c41a_ses-c7bd79c9-c47e-4ea5-aea3-74dda991b48e_electrodes.json - Format "string" must be number
+
+		2 more files with the same issue
+
+	Please visit https://neurostars.org/search?q=TSV_COLUMN_TYPE_REDEFINED for existing conversations about this issue.
+
+	[ERROR] TSV_VALUE_INCORRECT_TYPE A value in a column did not match the acceptable type for that column headers specified format.
+		participant_id
+		/participants.tsv - 'sub-70bf8cbd-d312-4654-a4ea-3a21ea2f541b'
+
+		session_id
+		/sub-c6e8125f-b6c7-4349-b74d-32e8bd606f63/sub-c6e8125f-b6c7-4349-b74d-32e8bd606f63_sessions.tsv - 'ses-aad23144-0e52-4eac-80c5-c4ee2decb198'
+		/sub-92130c1b-4fdb-4acc-86e0-1853d429c41a/sub-92130c1b-4fdb-4acc-86e0-1853d429c41a_sessions.tsv - 'ses-c7bd79c9-c47e-4ea5-aea3-74dda991b48e'
+
+		2 more files with the same issue
+
+	Please visit https://neurostars.org/search?q=TSV_VALUE_INCORRECT_TYPE for existing conversations about this issue.
+
+	[ERROR] INVALID_ENTITY_LABEL entity label doesn't match format found for files with this suffix
+		/sub-c6e8125f-b6c7-4349-b74d-32e8bd606f63/sub-c6e8125f-b6c7-4349-b74d-32e8bd606f63_sessions.tsv - entity: sub label: c6e8125f-b6c7-4349-b74d-32e8bd606f63 pattern: [0-9a-zA-Z+]+
+		/sub-c6e8125f-b6c7-4349-b74d-32e8bd606f63/sub-c6e8125f-b6c7-4349-b74d-32e8bd606f63_sessions.json - entity: sub label: c6e8125f-b6c7-4349-b74d-32e8bd606f63 pattern: [0-9a-zA-Z+]+
+
+		86 more files with the same issue
+
+	Please visit https://neurostars.org/search?q=INVALID_ENTITY_LABEL for existing conversations about this issue.
+
+
+          Summary:                         Available Tasks:        Available Modalities:
+          51 Files, 1.35 MB                                        microephys           
+          4 - Subjects 4 - Sessions                                                     
+
+	If you have any questions, please post on https://neurostars.org/tags/bids.
